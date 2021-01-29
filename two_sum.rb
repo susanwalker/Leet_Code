@@ -1,9 +1,10 @@
+# @param {Integer[]} nums
 # @param {Integer} target
 # @return {Integer[]}
 def two_sum(nums, target)
   for i in (0..nums.length-1)
     for j in (0..nums.length-1)
-      if nums[j] == target - nums[i]
+      if nums[j] == target - nums[i] && i != j
         return i, j
       end
     end
