@@ -43,7 +43,10 @@ describe FizzBuzzTest do
     context 'when num is multiple of 3 and 5' do
       it 'returns "FizzBuzz"' do
         expect(FizzBuzzTest.fizz_buzz(15)).to eq(
-          [1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz', 11, 'Fizz', 13, 14, 'FizzBuzz']
+          [
+            1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz',
+            'Buzz', 11, 'Fizz', 13, 14, 'FizzBuzz'
+          ]
         )
       end
     end
