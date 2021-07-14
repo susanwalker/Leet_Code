@@ -12,7 +12,7 @@ require 'rspec/autorun'
 
 describe WashYourHands do
   describe '.time_washing' do
-    context 'when someone washes 8 times a day for 8 months' do
+    context 'when someone washes 8 times a day for 7 months' do
       let!(:n) { 8 }
       let!(:nm) { 7 }
 
