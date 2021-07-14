@@ -27,7 +27,7 @@ describe SamAndFrodo do
     context 'when Sam and Frodo are not next to each other in array' do
       let!(:arr) { %w[Frodo Saruman Sam] }
 
-      it 'returns true' do
+      it 'returns false' do
         expect(SamAndFrodo.close_friends(arr)).to eq(false)
       end
     end
